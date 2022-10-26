@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+}
+
+* {
+    text-decoration: none;
+}
+
+/* navbar style==================== */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 223, 202);
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#active {
+    color: white;
+    background-color: orangered;
+}
+
+.nav-left a {
+    margin: 0;
+    color: black;
+    padding: 19px 30px;
+}
+
+.nav-left a:hover {
+    color: white;
+    background-color: orangered;
+}
+
+
+.logo {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.nav-left {
+    flex: 70%;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.nav-right {
+    flex: 30%;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.nav-right a {
+    background-color: orangered;
+    padding: 8px 15px;
+    border-radius: 70px;
+}
+
+.nav-right a:hover {
+    background-color: orange;
+}
+
+/* blog */
+.blog {
+    background-color: lavender;
+    align-items: centers;
+    padding-top: 50px;
+}
+
+/* add blog */
+.add-blog {
+   padding: 0;
+   margin-bottom: 100px;
+}
+
+/* add blog container */
+.add-blog-container {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.date {
+    display: flex;
+
+}
+
+.start-date {
+    flex: 50%;
+}
+
+.end-date {
+    flex: 50%;
+}
+
+#start-date, #end-date {
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgb(211, 208, 208);
+    width: 125px;
+}
+
+#end-date {
+    float: right;
+}
+
+#input-title, #description, #input-file {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+    box-shadow: 0px 3px 10px rgb(211, 208, 208);
+}
+
+#input-file {
+    background-color: white;
+    padding: 0;
+    resize: none;
+}
+
+.checkbox label {
+    font-weight: normal;
+}
+
+.button {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 17px;
+    float: right;
+    margin-top: 20px;
+    position: relative;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Blog List------------------- */
+.field-contents {
+    background-color: #eff3f8;
+    margin-top: 100px;
+}
+
+.field-contents h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contents {
+    padding: 30px;
+    display: flex;
+    background-color: #eff3f8;
+}
+
+.blog-list {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(202, 202, 202);
+    width: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.mobile-img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+.blog-list h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.blog-list a {
+    color: gray;
+}
+
+.android-icon {
+    display: flex;
+    justify-content:start;
+}
+
+.android-icon img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-group button {
+    width: 48%;
+    background-color: rgb(27, 27, 63);
+}

@@ -1,0 +1,134 @@
+/* Navbar -------------------- */
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* navbar style==================== */
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* navbar style==================== */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 223, 202);
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#active {
+    color: white;
+    background-color: orangered;
+}
+
+.nav-left a {
+    margin: 0;
+    color: black;
+    padding: 19px 30px;
+}
+
+.nav-left a:hover {
+    color: white;
+    background-color: orangered;
+}
+
+
+.logo {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.nav-left {
+    flex: 70%;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.nav-right {
+    flex: 30%;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.nav-right a {
+    background-color: orangered;
+    padding: 8px 15px;
+    border-radius: 70px;
+}
+
+.nav-right a:hover {
+    background-color: orange;
+}
+
+/* Blog Detail -------------------- */
+body {
+    margin: 0;
+}
+
+.blog-detail {
+    background-color: rgb(231, 231, 255);
+    padding: 50px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.icon-group img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.img-icon {
+    display: flex;
+    width: 100%;
+}
+
+.img {
+    flex: 60%;
+}
+
+.icon-group {
+    flex: 40%;
+}
+
+.date, .time, .react, .nodejs, .javascript, .socketio {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.tech-group {
+    display: flex;
+}
+
+.tech-left {
+    margin-right: 40px;
+}
