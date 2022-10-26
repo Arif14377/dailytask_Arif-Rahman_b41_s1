@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #dce0dce4;
+}
+
+/* Navbar */
+.navbar {
+    height: 10vh;
+    background-color: #f4f3f3;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.collapse {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.button-nav .btn {
+    background-color: #111727;
+    border: none;
+}
+
+/* form */
+.form-container {
+    max-width: 500px;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+/* Projects */
+.projects {
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
