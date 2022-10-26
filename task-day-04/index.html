@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Form & List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar------------------->
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li><img class="logo" src="https://dumbways.id/assets/images/brandred.png" alt="Logo Assuhuulah.id">
+                </li>
+                <li>
+                    <a id="active" href="./index.html">Add Project</a>
+                </li>
+                <li>
+                    <a href="/blog-detail/blog-detail.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="https://wa.me/6282114715378" target="_blank">Contact Me</a>
+        </div>
+    </nav>
+    <!-- Blog ------------>
+    <div class="blog">
+
+        <!-- ------add blog section--------- -->
+        <div class="add-blog">
+            <div class="add-blog-container">
+                <form onsubmit="addBlog(event); this.reset(); return false">
+                    <h1>ADD MY PROJECT</h1>
+                    <div>
+                        <label for="input-title">Project Name</label>
+                        <input type="text" id="input-title">
+                    </div>
+                    <div class="date">
+                        <div class="start-date">
+                            <label for="start-date">Start Date</label>
+                            <input type="date" id="start-date">
+                        </div>
+                        <div class="end-date">
+                            <label for="end-date">End Date</label>
+                            <input type="date" id="end-date">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <textarea name="" id="description" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="">Technologies</label>
+                    </div>
+                    <div class="checkbox">
+                        <div class="checkbox-top">
+                            <input type="checkbox" name="" id="nodejs">
+                            <label for="nodejs">Node Js</label>
+                            <input type="checkbox" name="" id="nextjs">
+                            <label for="nextjs">Next Js</label>
+                        </div>
+                        <div class="checkbox-bottom">
+                            <input type="checkbox" name="" id="reactjs">
+                            <label for="reactjs">React Js</label>
+                            <input type="checkbox" name="" id="typescript">
+                            <label for="typescript">Type Script</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="input-file">Upload Image</label>
+                        <input type="file" name="" id="input-file">
+                    </div>
+                    <div class="button">
+                        <button>submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-------contents section--------- -->
+        <div class="field-contents">
+            <h1>My Project</h1>
+            <div id="contents" class="contents">
+
+                <!-- content 1 -------------------->
+                <div id="blog-list1" class="blog-list">
+                    <div>
+                        <img class="mobile-img" src="./assets/img/pexels-pixabay-267389 (1).jpg" alt="aplikasi Mobile">
+                    </div>
+                    <a href="./blog-detail/blog-detail.html" target="_blank">
+                        <h2>DumbWays Mobile App - 2021</h2>
+                    </a>
+                    <a>durasi : 3 bulan</a>
+                    <p>
+                        App that used for dumbways student, it was deployed and can downloaded on playstore. Happy
+                        download
+                    </p>
+                    <div class="android-icon">
+                        <img src="./assets/img/playstore.png" alt="playstore icon">
+                        <img src="./assets/img/android.png" alt="android icon">
+                        <img src="./assets/img/java.png" alt="java icon">
+                    </div>
+                    <div class="btn-group">
+                        <button>edit</button>
+                        <button>delete</button>
+                    </div>
+                </div>
+
+                <!-- content 2 ------------------->
+                <div id="blog-list1" class="blog-list">
+                    <div>
+                        <img class="mobile-img" src="./assets/img/pexels-pixabay-267389 (1).jpg" alt="aplikasi Mobile">
+                    </div>
+                    <h2>DumbWays Mobile App - 2021</h2>
+                    <a>durasi : 3 bulan</a>
+                    <p>
+                        App that used for dumbways student, it was deployed and can downloaded on playstore. Happy
+                        download
+                    </p>
+                    <div class="android-icon">
+                        <img src="./assets/img/playstore.png" alt="playstore icon">
+                        <img src="./assets/img/android.png" alt="android icon">
+                        <img src="./assets/img/java.png" alt="java icon">
+                    </div>
+                    <div class="btn-group">
+                        <button>edit</button>
+                        <button>delete</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Javascript--------->
+    <script src="./script.js"></script>
+</body>
+
+</html>
