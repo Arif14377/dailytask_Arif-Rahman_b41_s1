@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    height: 10vh;
+    background-color: #f4f3f3;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.collapse {
+    margin-left: 30px;
+}
+
+.nav-item a {
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.button-nav .btn {
+    background-color: #111727;
+    border: none;
+}
+
+/* Card */
+.field-card {
+    background-color: #dce0e4;
+    padding: 100px 70px;
+}
+
+.field-card .card-image-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.socmed {
+    margin: 40px auto;
+}
+
+.socmed a {
+    margin-right: 20px;
+}
+
+.socmed a img {
+    width: 45px;
+}
+
+/* Projects */
+.projects {
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+
+.card-img-top {
+    height: 230px;
+    object-fit: cover;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
