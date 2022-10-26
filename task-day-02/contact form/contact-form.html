@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <!--Awal Navbar-->
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li><a href="../index.html"><img class="logo" src="https://dumbways.id/assets/images/brandred.png"
+                            alt="Logo Assuhuulah.id"></a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="./contact-form.html">Contact Me</a>
+        </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Awal Form -->
+    <h1>GET IN TOUCH</h1>
+    <form action="">
+        <div>
+            <label for="input-name">Name</label>
+            <input height="300" type=" text" id="input-name" placeholder="Your Name" required>
+        </div>
+        <div>
+            <label for="input-email">Email</label>
+            <input type="email" id="input-email" placeholder="Your Email" required>
+        </div>
+        <div>
+            <label for="input-phone">Phone Number</label>
+            <input type="number" id="input-phone" placeholder="Your Phone Number" required>
+        </div>
+        <div>
+            <label for="input-subject">Subject</label>
+            <select name="" id="input-subject" required>
+                <option value="" hidden>Select</option>
+                <option value="">Frontend</option>
+                <option value="">Backend</option>
+                <option value="">Fullstack</option>
+            </select>
+        </div>
+        <div>
+            <label for="input-message">Your Message</label>
+            <textarea name="" id="input-message" cols="20" rows="10" placeholder="Your Message"></textarea>
+        </div>
+        <div class="form-submit">
+            <a href="#"><button>Submit</button></a>
+        </div>
+    </form>
+    <!-- Akhir Form -->
+
+</body>
+
+</html>
