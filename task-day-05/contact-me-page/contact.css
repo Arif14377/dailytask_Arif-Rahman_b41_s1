@@ -33,3 +33,7 @@ body {
 form {
     max-width: 500px;
 }
+
+label {
+    font-weight: 600;
+}
