@@ -82,16 +82,16 @@ func blogDetail(w http.ResponseWriter, r *http.Request) {
 	id, _ := strconv.Atoi(mux.Vars(r)["id"])
 
 	data := map[string]interface{}{
-		"Title": "Dumbways Mobile App - 2021",
-		"Content" : "Membuat App that used for Dumbways student, it was deployed and can downloaded on playstore. Happy download.",
-		"Id" : id,
+		"Title":   "Dumbways Mobile App - 2021",
+		"Content": "Membuat App that used for Dumbways student, it was deployed and can downloaded on playstore. Happy download.",
+		"Id":      id,
 	}
 
 	w.WriteHeader(http.StatusOK)
 	tmpl.Execute(w, data)
 }
 
-func addBlog(w http.ResponseWriter, r *http.Request)  {
+func addBlog(w http.ResponseWriter, r *http.Request) {
 	err := r.ParseForm()
 	if err != nil {
 		log.Fatal(err)
